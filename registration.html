@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+	<meta charset='utf-8'>
+	<title>Регистрация</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<form action="new_user.php" method="post">
+  		<div class="container">
+    		<h1>Регистрация</h1>
+    		<p>Пожалуйста заполните данные для регистрации</p>
+    		<hr>
+
+    		<b>Email</b></label>
+    		<input type="text" placeholder="Enter Email" name="email" required>
+
+		<b>Login</b></label>
+                <input type="text" placeholder="Enter Login" name="login" required>
+
+    		<b>Password</b>
+    		<input type="password" placeholder="Enter Password" name="psw" required>
+
+    		<b>Repeat Password</b>
+    		<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    		<hr>
+    		<button type="submit" class="registerbtn">Register</button>
+  		</div>
+
+  		<div class="container signin">
+    		<p>Already have an account? <a href="#">Sign in</a>.</p>
+  		</div>
+	</form>
+</body>
